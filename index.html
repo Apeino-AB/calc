@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="calculator">
+        <h1 class="calculator__name">Calculator</h1>
+        <p class="calculator__text">Введите ваши числа:</p>
+        <form action="">
+            <label for="number first:" class="calculator__number_text">enter first number:</label>
+            <input type="text" name="number_a/" class="numbers">
+            <label for="number first:" class="calculator__number_text">enter second number:</label>
+            <input type="text" name="number_b/" class="numbers"><br>
+            <label for="Action">Действие</label>
+            <select name="chois" class="calculator__chois">
+                <option value="Division">/</option>
+                <option value="Multiplication ">*</option>
+                <option value="Addition ">+</option>
+                <option value="Subtraction ">-</option>
+            </select><br>
+            <button onclick="myFunction()" class="calculater_button_message">Отправить</button>
+            </form>
+            <div class="output"></div>
+    </div>
+</body>
+</html>
